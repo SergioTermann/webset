@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f9fafb"/>
+  
+  <!-- Dental Office -->
+  <rect x="100" y="150" width="600" height="350" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+  
+  <!-- Dental Chair -->
+  <rect x="150" y="250" width="200" height="100" rx="10" fill="#00a0e3" opacity="0.8"/>
+  <rect x="150" y="350" width="50" height="100" rx="5" fill="#00a0e3" opacity="0.8"/>
+  
+  <!-- Dentist -->
+  <circle cx="400" cy="300" r="50" fill="#1e3a8a"/>
+  <circle cx="400" cy="230" r="30" fill="#f8fafc"/>
+  <rect x="370" y="320" width="60" height="100" fill="#1e3a8a"/>
+  <rect x="370" y="420" width="20" height="50" fill="#1e3a8a"/>
+  <rect x="410" y="420" width="20" height="50" fill="#1e3a8a"/>
+  
+  <!-- Assistant -->
+  <circle cx="500" cy="300" r="40" fill="#00a0e3"/>
+  <circle cx="500" cy="240" r="25" fill="#f8fafc"/>
+  <rect x="475" y="315" width="50" height="90" fill="#00a0e3"/>
+  <rect x="475" y="405" width="15" height="45" fill="#00a0e3"/>
+  <rect x="510" y="405" width="15" height="45" fill="#00a0e3"/>
+  
+  <!-- Patient -->
+  <circle cx="200" cy="230" r="30" fill="#f8fafc"/>
+  <rect x="170" y="250" width="60" height="20" fill="#f8fafc"/>
+  
+  <!-- Dental Equipment -->
+  <rect x="600" y="250" width="100" height="150" rx="5" fill="#f3f4f6"/>
+  <circle cx="650" cy="280" r="10" fill="#00a0e3"/>
+  <circle cx="650" cy="310" r="10" fill="#10b981"/>
+  <circle cx="650" cy="340" r="10" fill="#ef4444"/>
+  
+  <!-- Decorative Elements -->
+  <rect x="150" y="180" width="100" height="5" rx="2" fill="#e5e7eb"/>
+  <rect x="550" y="180" width="100" height="5" rx="2" fill="#e5e7eb"/>
+  <rect x="150" y="200" width="50" height="5" rx="2" fill="#e5e7eb"/>
+  <rect x="600" y="200" width="50" height="5" rx="2" fill="#e5e7eb"/>
+</svg>

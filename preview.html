@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmileBright Dental Website Preview</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #0078d4;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .preview-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+            justify-content: center;
+        }
+        .preview-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            width: 300px;
+            transition: transform 0.3s ease;
+        }
+        .preview-card:hover {
+            transform: translateY(-5px);
+        }
+        .preview-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            background-color: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #666;
+        }
+        .preview-card-content {
+            padding: 20px;
+        }
+        .preview-card h2 {
+            margin-top: 0;
+            color: #0078d4;
+        }
+        .preview-card p {
+            color: #666;
+            line-height: 1.5;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #0078d4;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-weight: 500;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #005a9e;
+        }
+        .description {
+            text-align: center;
+            max-width: 800px;
+            margin: 30px auto;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SmileBright Dental Website</h1>
+            <p>A professional dental clinic website created based on your requirements</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="description">
+            <p>This dental website has been created with a clean, professional design focused on providing a great user experience. The site includes all essential pages for a dental clinic including home, about, services, and contact pages.</p>
+        </div>
+        
+        <div class="preview-links">
+            <div class="preview-card">
+                <div class="img" style="height:180px; background-color:#e0e0e0; display:flex; align-items:center; justify-content:center;">Homepage</div>
+                <div class="preview-card-content">
+                    <h2>Homepage</h2>
+                    <p>Main landing page with hero section, services overview, testimonials, and call-to-action.</p>
+                    <a href="index.html" class="btn">View Page</a>
+                </div>
+            </div>
+            
+            <div class="preview-card">
+                <div class="img" style="height:180px; background-color:#e0e0e0; display:flex; align-items:center; justify-content:center;">About Us</div>
+                <div class="preview-card-content">
+                    <h2>About Us</h2>
+                    <p>Information about the dental clinic, team members, and core values.</p>
+                    <a href="about.html" class="btn">View Page</a>
+                </div>
+            </div>
+            
+            <div class="preview-card">
+                <div class="img" style="height:180px; background-color:#e0e0e0; display:flex; align-items:center; justify-content:center;">Services</div>
+                <div class="preview-card-content">
+                    <h2>Services</h2>
+                    <p>Detailed information about all dental services offered by the clinic.</p>
+                    <a href="services.html" class="btn">View Page</a>
+                </div>
+            </div>
+            
+            <div class="preview-card">
+                <div class="img" style="height:180px; background-color:#e0e0e0; display:flex; align-items:center; justify-content:center;">Contact</div>
+                <div class="preview-card-content">
+                    <h2>Contact</h2>
+                    <p>Contact information, location details, and appointment booking form.</p>
+                    <a href="contact.html" class="btn">View Page</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
